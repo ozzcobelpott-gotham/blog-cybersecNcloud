@@ -1,0 +1,4 @@
+baseURL = 'https://ejemplo.com/'
+languageCode = 'es-mx'
+title = 'Gotham Blog'
+theme = 'PaperMod'
