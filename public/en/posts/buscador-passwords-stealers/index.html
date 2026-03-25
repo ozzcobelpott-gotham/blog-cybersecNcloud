@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="es" dir="auto" data-theme="dark">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><script src="/blog-cybersecNcloud/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog-cybersecNcloud/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Buscador de Contraseñas: desglosando un Stealer | Gotham Blog</title>
+<title>Password Search: breaking down a Stealer | Gotham Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="Contenido&hellip;">
+<meta name="description" content="Content&hellip;">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/blog-cybersecNcloud/posts/buscador-passwords-stealers/">
+<link rel="canonical" href="http://localhost:1313/blog-cybersecNcloud/en/posts/buscador-passwords-stealers/">
 <link crossorigin="anonymous" href="/blog-cybersecNcloud/assets/css/stylesheet.9ce80d9a2679919ff58ded9f2c872ef69064842e3a2def477d1a8c4e837e32e1.css" integrity="sha256-nOgNmiZ5kZ/1je2fLIcu9pBkhC46Le9HfRqMToN&#43;MuE=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/blog-cybersecNcloud/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/blog-cybersecNcloud/favicon-16x16.png">
@@ -28,11 +28,11 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="http://localhost:1313/blog-cybersecNcloud/posts/buscador-passwords-stealers/">
+</noscript><meta property="og:url" content="http://localhost:1313/blog-cybersecNcloud/en/posts/buscador-passwords-stealers/">
   <meta property="og:site_name" content="Gotham Blog">
-  <meta property="og:title" content="Buscador de Contraseñas: desglosando un Stealer">
-  <meta property="og:description" content="Contenido…">
-  <meta property="og:locale" content="es">
+  <meta property="og:title" content="Password Search: breaking down a Stealer">
+  <meta property="og:description" content="Content…">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-03-25T00:00:00+00:00">
@@ -41,8 +41,8 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/blog-cybersecNcloud/images/gotham-cover.png">
-  <meta name="twitter:title" content="Buscador de Contraseñas: desglosando un Stealer">
-  <meta name="twitter:description" content="Contenido…">
+  <meta name="twitter:title" content="Password Search: breaking down a Stealer">
+  <meta name="twitter:description" content="Content…">
 
 
 <script type="application/ld+json">
@@ -54,13 +54,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "http://localhost:1313/blog-cybersecNcloud/posts/"
+      "item": "http://localhost:1313/blog-cybersecNcloud/en/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Buscador de Contraseñas: desglosando un Stealer",
-      "item": "http://localhost:1313/blog-cybersecNcloud/posts/buscador-passwords-stealers/"
+      "name": "Password Search: breaking down a Stealer",
+      "item": "http://localhost:1313/blog-cybersecNcloud/en/posts/buscador-passwords-stealers/"
     }
   ]
 }
@@ -69,20 +69,20 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Buscador de Contraseñas: desglosando un Stealer",
-  "name": "Buscador de Contraseñas: desglosando un Stealer",
-  "description": "Contenido\u0026hellip;\n",
+  "headline": "Password Search: breaking down a Stealer",
+  "name": "Password Search: breaking down a Stealer",
+  "description": "Content\u0026hellip;\n",
   "keywords": [
     
   ],
-  "articleBody": "Contenido…\n",
+  "articleBody": "Content…\n",
   "wordCount" : "1",
-  "inLanguage": "es",
+  "inLanguage": "en",
   "image": "http://localhost:1313/blog-cybersecNcloud/images/gotham-cover.png","datePublished": "2026-03-25T00:00:00Z",
   "dateModified": "2026-03-25T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/blog-cybersecNcloud/posts/buscador-passwords-stealers/"
+    "@id": "http://localhost:1313/blog-cybersecNcloud/en/posts/buscador-passwords-stealers/"
   },
   "publisher": {
     "@type": "Organization",
@@ -99,25 +99,25 @@
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/blog-cybersecNcloud/" accesskey="h" title="Gotham Blog (Alt + H)">Gotham Blog</a>
+            <a href="http://localhost:1313/blog-cybersecNcloud/en/" accesskey="h" title="Gotham Blog (Alt + H)">Gotham Blog</a>
             <div class="logo-switches">
                     <ul class="lang-switch"><li>|</li>
                         <li>
-                            <a href="http://localhost:1313/blog-cybersecNcloud/en/" title="English"
-                                aria-label="English">En</a>
+                            <a href="http://localhost:1313/blog-cybersecNcloud/" title="Español"
+                                aria-label="Español">Es</a>
                         </li>
                     </ul>
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/blog-cybersecNcloud/posts/" title="Artículos">
-                    <span>Artículos</span>
+                <a href="http://localhost:1313/en/blog-cybersecNcloud/posts/" title="Posts">
+                    <span>Posts</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/blog-cybersecNcloud/about/" title="Sobre Mí">
-                    <span>Sobre Mí</span>
+                <a href="http://localhost:1313/en/blog-cybersecNcloud/about/" title="About Me">
+                    <span>About Me</span>
                 </a>
             </li>
         </ul>
@@ -129,7 +129,7 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Buscador de Contraseñas: desglosando un Stealer
+      Password Search: breaking down a Stealer
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
           <path
@@ -137,16 +137,16 @@
         </svg>
       </span>
     </h1>
-    <div class="post-meta"><span title='2026-03-25 00:00:00 +0000 UTC'>25 de marzo de 2026</span>&nbsp;|&nbsp;<span>Traducciones:</span>
+    <div class="post-meta"><span title='2026-03-25 00:00:00 +0000 UTC'>March 25, 2026</span>&nbsp;|&nbsp;<span>Translations:</span>
 <ul class="i18n_list">
     <li>
-        <a href="http://localhost:1313/blog-cybersecNcloud/en/posts/buscador-passwords-stealers/">En</a>
+        <a href="http://localhost:1313/blog-cybersecNcloud/posts/buscador-passwords-stealers/">Es</a>
     </li>
 </ul>
 
 </div>
   </header> 
-  <div class="post-content"><p>Contenido&hellip;</p>
+  <div class="post-content"><p>Content&hellip;</p>
 
 
   </div>
@@ -159,7 +159,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/blog-cybersecNcloud/">Gotham Blog</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/blog-cybersecNcloud/en/">Gotham Blog</a></span> · 
 
     <span>
         Powered by

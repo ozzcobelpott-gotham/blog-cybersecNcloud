@@ -1,4 +1,58 @@
 baseURL = 'https://ozzcobelpott-gotham.github.io/blog-cybersecNcloud/'
-languageCode = 'es-mx'
 title = 'Gotham Blog'
 theme = 'PaperMod'
+defaultContentLanguage = 'es'
+
+# --- Variables Globales para SEO y Redes Sociales ---
+description = "Investigación en Ciberseguridad Ofensiva, Automatización Cloud y Desarrollo Backend."
+author = "Oswald Cobblepot"
+
+[params]
+  defaultTheme = "dark"
+  disableThemeToggle = true
+  ShowLanguageSwitcher = true
+  disableSpecial1stPost = true
+  
+  # --- Entorno y portada ---
+  env = "production" # Forzar la generación de todas las etiquetas SEO
+  images = ["images/gotham-cover.png"] # La imagen que saldrá en LinkedIn al compartir la web principal
+
+  [params.assets]
+    favicon = "favicon.ico"
+
+  # --- Botones sociales (Opcional, aparecen en el footer o página principal) ---
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/tu-perfil-real"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ozzcobelpott-gotham"
+
+[languages]
+  [languages.es]
+    languageName = 'Español'
+    weight = 1
+    
+    # Menú en Español
+    [[languages.es.menu.main]]
+      name = "Artículos"
+      url = "/posts/"
+      weight = 1
+    [[languages.es.menu.main]]
+      name = "Sobre Mí"
+      url = "/about/"
+      weight = 2
+
+  [languages.en]
+    languageName = 'English'
+    weight = 2
+    
+    # Menú en Inglés
+    [[languages.en.menu.main]]
+      name = "Posts"
+      url = "/posts/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "About Me"
+      url = "/about/"
+      weight = 2

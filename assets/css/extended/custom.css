@@ -1,0 +1,49 @@
+/* Playfair Display para los títulos (Elegancia clásica/Cobblepot) */
+/* Inter para los textos (Legibilidad técnica) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Inter:wght@400;600&display=swap');
+
+.dark {
+    --theme: #0b0c10; /* Fondo principal: Noche oscura */
+    --entry: #1a1c23; /* Fondo de las tarjetas de los artículos */
+    --primary: #e0e6ed; /* Texto principal: Gris claro legible */
+    --secondary: #8b92a5; /* Texto secundario: Fechas y descripciones */
+    --tertiary: #2d313f; /* Bordes sutiles */
+    --content: #e0e6ed; /* Texto dentro del artículo */
+    --hljs-bg: #15161b; /* Fondo negro profundo para los bloques de código */
+    --border: #2d313f;
+}
+
+/* 3. Acentos de color */
+a, .dark a {
+    color: #9b59b6; /* Púrpura elegante para los enlaces */
+    text-decoration: none;
+}
+a:hover, .dark a:hover {
+    color: #b583c9; /* Brillo al pasar el cursor */
+}
+
+/* 4. Aplicar la tipografía */
+h1, h2, h3, h4, h5, h6, .profile_inner h1 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.5px;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* 5. Compactar los espacios (Diseño de tarjetas de artículos) */
+.post-entry {
+    margin-bottom: 15px; /* Reducimos el margen inferior drásticamente */
+    padding: 20px; /* Reducimos el relleno interno de la tarjeta */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    border: 1px solid var(--border); /* Añade un borde sutil para enmarcar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra suave para dar profundidad */
+}
+
+/* Ajustar el espacio interno entre el título y el resumen en la tarjeta */
+.entry-header h2 {
+    margin-bottom: 8px;
+}
+.entry-content {
+    margin: 8px 0;
+}

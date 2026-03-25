@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Gotham Blog</title>
+    <link>http://localhost:1313/blog-cybersecNcloud/en/posts/</link>
+    <description>Recent content in Posts on Gotham Blog</description>
+    <image>
+      <title>Gotham Blog</title>
+      <url>http://localhost:1313/blog-cybersecNcloud/images/gotham-cover.png</url>
+      <link>http://localhost:1313/blog-cybersecNcloud/images/gotham-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog-cybersecNcloud/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Malware Analysis: First Steps</title>
+      <link>http://localhost:1313/blog-cybersecNcloud/en/posts/analisis-de-malware/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog-cybersecNcloud/en/posts/analisis-de-malware/</guid>
+      <description>&lt;p&gt;Content&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Password Search: breaking down a Stealer</title>
+      <link>http://localhost:1313/blog-cybersecNcloud/en/posts/buscador-passwords-stealers/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog-cybersecNcloud/en/posts/buscador-passwords-stealers/</guid>
+      <description>&lt;p&gt;Content&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
