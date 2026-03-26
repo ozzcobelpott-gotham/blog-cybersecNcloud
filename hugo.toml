@@ -18,7 +18,7 @@ author = "Oswald Cobblepot"
   images = ["images/gotham-cover.png"] # La imagen que saldrá en LinkedIn al compartir la web principal
 
   [params.assets]
-    favicon = "favicon.ico"
+    favicon = "/blog-cybersecNcloud/favicon.ico"
 
   # --- Botones sociales (Opcional, aparecen en el footer o página principal) ---
   [[params.socialIcons]]
@@ -31,28 +31,30 @@ author = "Oswald Cobblepot"
 [languages]
   [languages.es]
     languageName = 'Español'
+    title = 'Gotham Blog'
     weight = 1
     
     # Menú en Español
     [[languages.es.menu.main]]
       name = "Artículos"
-      url = "/posts/"
+      pageRef = "/posts"
       weight = 1
     [[languages.es.menu.main]]
       name = "Sobre Mí"
-      url = "/about/"
+      pageRef = "/about"
       weight = 2
 
   [languages.en]
     languageName = 'English'
+    title = 'Gotham Blog'
     weight = 2
     
     # Menú en Inglés
     [[languages.en.menu.main]]
       name = "Posts"
-      url = "/posts/"
+      pageRef = "/posts"
       weight = 1
     [[languages.en.menu.main]]
       name = "About Me"
-      url = "/about/"
+      pageRef = "/about"
       weight = 2
