@@ -11,24 +11,21 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 17:03:03 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog-cybersecNcloud/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/blog-cybersecNcloud/en/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog-cybersecNcloud/en/about/</guid>
-      <description>&lt;p&gt;I am a software engineer and cybersecurity researcher focusing on &lt;strong&gt;Red Team operations, Cloud automation, and Backend development&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;My approach is not just about breaking into systems, but understanding their architectural foundations. I translate complex technical vulnerabilities into quantifiable business risks and design automated solutions to mitigate them.&lt;/p&gt;
-&lt;h3 id=&#34;what-i-build&#34;&gt;What I Build&lt;/h3&gt;
-&lt;p&gt;I specialize in designing high-performance tools and reverse-engineering processes. My recent focus areas include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Offensive Tooling &amp;amp; CTI:&lt;/strong&gt; Building ultra-fast search engines to parse and extract credentials from stealer logs (analyzing threat actors&amp;rsquo; ULPs).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Architecture &amp;amp; Backend:&lt;/strong&gt; Implementing robust software design patterns (Factory, Builder, Prototype) to create modular systems. I recently engineered precision data extraction and classification engines for financial statements via OCR, debugging complex JSON parsing logic in production environments.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cloud &amp;amp; Infrastructure:&lt;/strong&gt; Managing and automating Cloud environments, operating directly from the terminal with Vim to maximize deployment speed and efficiency.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;the-vision&#34;&gt;The Vision&lt;/h3&gt;
-&lt;p&gt;My long-term goal is the convergence of these disciplines: engineering AI-driven automated defense testing and penetration frameworks designed to secure both on-premise infrastructures and &lt;em&gt;Active Directory&lt;/em&gt; environments.&lt;/p&gt;</description>
+      <title>Whats an Ip? - P.1</title>
+      <link>http://localhost:1313/blog-cybersecNcloud/en/posts/whats-an-ip/</link>
+      <pubDate>Thu, 26 Mar 2026 17:03:03 -0600</pubDate>
+      <guid>http://localhost:1313/blog-cybersecNcloud/en/posts/whats-an-ip/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;El Resumen Ejecutivo (El Informe Cobblepot):&lt;/strong&gt; &amp;gt; &lt;em&gt;Escribe aquí 2-3 líneas para el gerente o reclutador. ¿Qué problema de negocio resuelve esto? ¿Por qué importa? Sin jerga técnica profunda.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;el-contexto-del-problema&#34;&gt;El Contexto del Problema&lt;/h2&gt;
+&lt;p&gt;Explica la situación. Por ejemplo: &amp;ldquo;Los grupos de cibercrimen usan &lt;em&gt;stealers&lt;/em&gt; para&amp;hellip;&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;la-arquitectura-técnica-deep-dive&#34;&gt;La Arquitectura Técnica (Deep Dive)&lt;/h2&gt;
+&lt;p&gt;Aquí entra el ingeniero. Desglosa el código, los logs, la configuración en la nube o el uso de herramientas específicas.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Malware Analysis: First Steps</title>
@@ -43,6 +40,15 @@
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog-cybersecNcloud/en/posts/buscador-passwords-stealers/</guid>
       <description>&lt;p&gt;Content&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/blog-cybersecNcloud/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog-cybersecNcloud/en/about/</guid>
+      <description>&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;re entering the &amp;ldquo;About Me&amp;rdquo; section, so let me tell you a little about myself&amp;hellip; I currently work as a software engineer and cybersecurity researcher focused on &lt;strong&gt;Red Team operations, cloud automation, and backend development&lt;/strong&gt;, with experience in AI development and automation.&lt;/p&gt;
+&lt;p&gt;My current approach isn&amp;rsquo;t just about breaking systems, but understanding them from their architectural foundations, whether it&amp;rsquo;s an exploit I found on GitHub or the WinAPI for MalDev. I have experience translating complex technical vulnerabilities into quantifiable business risks, so I can design automated solutions to mitigate them.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 17:03:03 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog-cybersecNcloud/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Whats an Ip? - P.1</title>
+      <link>http://localhost:1313/blog-cybersecNcloud/en/posts/whats-an-ip/</link>
+      <pubDate>Thu, 26 Mar 2026 17:03:03 -0600</pubDate>
+      <guid>http://localhost:1313/blog-cybersecNcloud/en/posts/whats-an-ip/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;El Resumen Ejecutivo (El Informe Cobblepot):&lt;/strong&gt; &amp;gt; &lt;em&gt;Escribe aquí 2-3 líneas para el gerente o reclutador. ¿Qué problema de negocio resuelve esto? ¿Por qué importa? Sin jerga técnica profunda.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;el-contexto-del-problema&#34;&gt;El Contexto del Problema&lt;/h2&gt;
+&lt;p&gt;Explica la situación. Por ejemplo: &amp;ldquo;Los grupos de cibercrimen usan &lt;em&gt;stealers&lt;/em&gt; para&amp;hellip;&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;la-arquitectura-técnica-deep-dive&#34;&gt;La Arquitectura Técnica (Deep Dive)&lt;/h2&gt;
+&lt;p&gt;Aquí entra el ingeniero. Desglosa el código, los logs, la configuración en la nube o el uso de herramientas específicas.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Malware Analysis: First Steps</title>
       <link>http://localhost:1313/blog-cybersecNcloud/en/posts/analisis-de-malware/</link>

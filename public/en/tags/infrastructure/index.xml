@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Infrastructure on Gotham Blog</title>
+    <link>http://localhost:1313/blog-cybersecNcloud/en/tags/infrastructure/</link>
+    <description>Recent content in Infrastructure on Gotham Blog</description>
+    <image>
+      <title>Gotham Blog</title>
+      <url>http://localhost:1313/blog-cybersecNcloud/images/gotham-cover.png</url>
+      <link>http://localhost:1313/blog-cybersecNcloud/images/gotham-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Mar 2026 17:02:42 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog-cybersecNcloud/en/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is an IP and how does it work? - Part 1</title>
+      <link>http://localhost:1313/blog-cybersecNcloud/en/posts/whats-an-ip/</link>
+      <pubDate>Thu, 26 Mar 2026 17:02:42 -0600</pubDate>
+      <guid>http://localhost:1313/blog-cybersecNcloud/en/posts/whats-an-ip/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Cobblepot Report:&lt;/strong&gt; &lt;em&gt;All internet communication, from sending a WhatsApp message to connecting to an application used by millions of users like Netflix, depends on knowing who is talking to whom. Understanding IP addresses isn&amp;rsquo;t just &amp;ldquo;IT stuff&amp;rdquo;; it&amp;rsquo;s the first step to understanding how digital services work, configuring websites, or understanding the foundations of cybersecurity. Without IPs, there is no digital business.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;understanding-the-internet-from-the-ground-up-ips&#34;&gt;Understanding the Internet from the Ground Up: IPs&lt;/h1&gt;
+&lt;p&gt;The internet may seem like black magic, but in reality, it operates under fairly strict and logical rules. Think of the internet as the world&amp;rsquo;s largest and fastest mail system.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

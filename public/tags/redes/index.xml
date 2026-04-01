@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Redes on Gotham Blog</title>
+    <link>http://localhost:1313/blog-cybersecNcloud/tags/redes/</link>
+    <description>Recent content in Redes on Gotham Blog</description>
+    <image>
+      <title>Gotham Blog</title>
+      <url>http://localhost:1313/blog-cybersecNcloud/images/gotham-cover.png</url>
+      <link>http://localhost:1313/blog-cybersecNcloud/images/gotham-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 26 Mar 2026 17:02:42 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog-cybersecNcloud/tags/redes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qué es una IP y cómo funciona? - P.1</title>
+      <link>http://localhost:1313/blog-cybersecNcloud/posts/que-es-una-ip/</link>
+      <pubDate>Thu, 26 Mar 2026 17:02:42 -0600</pubDate>
+      <guid>http://localhost:1313/blog-cybersecNcloud/posts/que-es-una-ip/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Informe Cobblepot:&lt;/strong&gt; &lt;em&gt;Toda comunicación en internet, desde enviar un mensaje por WhatsApp, hasta conectarte a una aplicación para millones de usuarios como Netflix, depende de saber quién habla con quién. Entender las direcciones IP no es solo &amp;ldquo;cosas de IT&amp;rdquo;; es el primer paso para entender como funcionan los servicios digitales, configurar páginas web o entender los cimientos de la ciberseguridad. Sin IPs, no hay negocio digital.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;entendiendo-internet-desde-la-base-ips&#34;&gt;Entendiendo Internet desde la base: IPs&lt;/h1&gt;
+&lt;p&gt;El internet puede parecer magia negra, pero en realidad funciona bajo reglas bastante estrictas y lógicas. Piensa en internet como el sistema de correos más grande y rápido del mundo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

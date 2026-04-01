@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es" dir="auto" data-theme="dark">
+
+<head><script src="/blog-cybersecNcloud/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog-cybersecNcloud/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Qué es una IP y cómo funciona? - P.1 | Gotham Blog</title>
+<meta name="keywords" content="Redes, Básicos, Infraestructura">
+<meta name="description" content="
+El Informe Cobblepot: &gt; Toda comunicación en internet, desde enviar un mensaje por WhatsApp, hasta conectarte a una aplicación para millones de usuarios como Netflix, depende de saber quién habla con quién. Entender las direcciones IP no es solo &ldquo;cosas de IT&rdquo;; es el primer paso para entender como funcionan los servicios digitales, configurar páginas web o entender los cimientos de la ciberseguridad. Sin IPs, no hay negocio digital.
+
+
+Entendiendo Internet desde la base (1 de 3): IPs
+El internet puede parecer magia negra, pero en realidad funciona bajo reglas bastante estrictas y lógicas. Piensa en internet como el sistema de correos más grande y rápido del mundo.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/blog-cybersecNcloud/que-es-una-ip/">
+<link crossorigin="anonymous" href="/blog-cybersecNcloud/assets/css/stylesheet.9ce80d9a2679919ff58ded9f2c872ef69064842e3a2def477d1a8c4e837e32e1.css" integrity="sha256-nOgNmiZ5kZ/1je2fLIcu9pBkhC46Le9HfRqMToN&#43;MuE=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/blog-cybersecNcloud/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/blog-cybersecNcloud/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/blog-cybersecNcloud/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/blog-cybersecNcloud/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/blog-cybersecNcloud/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="es" href="http://localhost:1313/blog-cybersecNcloud/que-es-una-ip/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog-cybersecNcloud/en/whats-an-ip/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/blog-cybersecNcloud/que-es-una-ip/">
+  <meta property="og:site_name" content="Gotham Blog">
+  <meta property="og:title" content="Qué es una IP y cómo funciona? - P.1">
+  <meta property="og:description" content="El Informe Cobblepot: &gt; Toda comunicación en internet, desde enviar un mensaje por WhatsApp, hasta conectarte a una aplicación para millones de usuarios como Netflix, depende de saber quién habla con quién. Entender las direcciones IP no es solo “cosas de IT”; es el primer paso para entender como funcionan los servicios digitales, configurar páginas web o entender los cimientos de la ciberseguridad. Sin IPs, no hay negocio digital.
+Entendiendo Internet desde la base (1 de 3): IPs El internet puede parecer magia negra, pero en realidad funciona bajo reglas bastante estrictas y lógicas. Piensa en internet como el sistema de correos más grande y rápido del mundo.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2026-03-26T17:02:42-06:00">
+    <meta property="article:modified_time" content="2026-03-26T17:02:42-06:00">
+    <meta property="article:tag" content="Redes">
+    <meta property="article:tag" content="Básicos">
+    <meta property="article:tag" content="Infraestructura">
+      <meta property="og:image" content="http://localhost:1313/blog-cybersecNcloud/images/gotham-cover.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog-cybersecNcloud/images/gotham-cover.png">
+  <meta name="twitter:title" content="Qué es una IP y cómo funciona? - P.1">
+  <meta name="twitter:description" content="El Informe Cobblepot: &gt; Toda comunicación en internet, desde enviar un mensaje por WhatsApp, hasta conectarte a una aplicación para millones de usuarios como Netflix, depende de saber quién habla con quién. Entender las direcciones IP no es solo “cosas de IT”; es el primer paso para entender como funcionan los servicios digitales, configurar páginas web o entender los cimientos de la ciberseguridad. Sin IPs, no hay negocio digital.
+Entendiendo Internet desde la base (1 de 3): IPs El internet puede parecer magia negra, pero en realidad funciona bajo reglas bastante estrictas y lógicas. Piensa en internet como el sistema de correos más grande y rápido del mundo.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Qué es una IP y cómo funciona? - P.1",
+      "item": "http://localhost:1313/blog-cybersecNcloud/que-es-una-ip/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Qué es una IP y cómo funciona? - P.1",
+  "name": "Qué es una IP y cómo funciona? - P.1",
+  "description": " El Informe Cobblepot: \u0026gt; Toda comunicación en internet, desde enviar un mensaje por WhatsApp, hasta conectarte a una aplicación para millones de usuarios como Netflix, depende de saber quién habla con quién. Entender las direcciones IP no es solo \u0026ldquo;cosas de IT\u0026rdquo;; es el primer paso para entender como funcionan los servicios digitales, configurar páginas web o entender los cimientos de la ciberseguridad. Sin IPs, no hay negocio digital.\nEntendiendo Internet desde la base (1 de 3): IPs El internet puede parecer magia negra, pero en realidad funciona bajo reglas bastante estrictas y lógicas. Piensa en internet como el sistema de correos más grande y rápido del mundo.\n",
+  "keywords": [
+    "Redes", "Básicos", "Infraestructura"
+  ],
+  "articleBody": " El Informe Cobblepot: \u003e Toda comunicación en internet, desde enviar un mensaje por WhatsApp, hasta conectarte a una aplicación para millones de usuarios como Netflix, depende de saber quién habla con quién. Entender las direcciones IP no es solo “cosas de IT”; es el primer paso para entender como funcionan los servicios digitales, configurar páginas web o entender los cimientos de la ciberseguridad. Sin IPs, no hay negocio digital.\nEntendiendo Internet desde la base (1 de 3): IPs El internet puede parecer magia negra, pero en realidad funciona bajo reglas bastante estrictas y lógicas. Piensa en internet como el sistema de correos más grande y rápido del mundo.\nEn esta serie vamos a descomponer tres conceptos fundamentales que hacen posible que estés leyendo este blog ahora mismo:\nQué es una IP (y por qué se nos están acabando) Cómo funcionan los puertos y las conexiones Cómo se relaciona todo esto con las URLs Vayamos por partes, como dijo jack en destripador. Empecemos con las bases.\nParte 1: ¿Qué es exactamente una IP? El Identificador Único de tus dispositivos Una dirección IP (Internet Protocol) es el identificador único de un dispositivo dentro de una red.\n¿Que es una red? Piensa en la red como un edificio de departamentos con varias personas viviendo en cada piso. La red puede ser domestica (un edificio donde vive gente), corporativa (un edificio de oficinas), o pública (un centro comercial).\nCada una de estas redes se rigen bajo ciertas reglas específicas, pero para efectos prácticos, nos centraremos en redes domesticas, el edificio donde viven personas, o en nuestro caso… El modem que está dando internet en tu casa.\nSin la red, tu computadora (o celular) sería como una persona que intenta recibir correspondencia en ese edificio, pero el cartero no tiene dirección física a donde entregarla; los datos (cartas en este ejemplo) simplemente no sabrían cómo llegar.\nPiensa en ella como un número único e irrepetible dentro de un mismo entorno. Tu celular, tu Smart TV, tu refrigerador inteligente… todos tienen una. En el ejemplo de los departamentos, no puede existir dos departamentos con el número 1 (en un escenario perfecto), si hubieran 2 departamentos con el mismo número, probablemente compartirían más allá de solo el número, por ejemplo, las facturas; En el caso de la red, compartirían la información si hay 2 iguales.\n¿Cómo se ve una IP? ¿Que forma parte de una IP? Si no tienes conocimiento previo, podrías pensar que una IP es algo místico, o una dirección física como en el ejemplo de los departamentos. En realidad no es más que una forma matemática, de los años 80, en la que se le dió solución a un problema muy grande: ¿Cómo podemos comunicarnos con otras personas por internet?\nTe presento, una IP en el formato IPv4 (no te preocupes, entenderás esto más adelante):\n192.168.1.1\nEsta IP, está formada por 4 secciones separadas por puntos. A cada sección se le llama octeto. Los números dentro de cada octeto pueden ir del 0 al 255. (Y sí, existe la IP 1.1.1.1 y en este momento le pertenece a “Cloudflare”).\nPuede que te hayas preguntado, por qué un “octeto”, se llama “octeto”… Bueno, un octeto es una unidad de información digital formada por 8 bits.\nUn bit (o dígito binario) es la unidad más pequeña en la computación, siendo que cada bit solo puede valer 0 o 1, lo que resulta en que las combinaciones posibles pueden ir de 00000000 (8 veces 0) a 11111111 (8 veces 1).\nPuede que también te hayas preguntado, por qué un octeto solo puede ir del 0 al 255, bueno… si aplicamos un poco de matemáticas podemos obtener cuantas combinaciones exactas tiene un octeto:\nUn bit consta de únicamente 2 posibilidades, 0 y 1. Esta será nuestra constante “2” llamada “posibilidades”.\nCada octeto consta de 8 bits, o sea, 8 combinaciones posibles entre 0 y 1, una por cada bit. Esta será nuestra constante “8” llamada “número de bits”.\nLa formula es simple, contante ^ número de bits: $$2^8 = 256$$ posibilidades.\nPor eso cada octeto puede ir del 0 al 255, siendo 0 = 00000000 y siendo 255 = 11111111.\nA su vez, estos octetos o grupos de 8 bits, se les conoce comunmente como byte, que es una unidad de medida más grande, formada por 8 bits. O sea que nuestra dirección IP que contiene exactamente 4 octetos o 32 bits, es a su vez 4 bytes de información.\n¿Pública o Privada? Que pasa si existen 2 edificios diferentes, pero ambos tienen un departamento “1”? Para lidiar con el hecho de que nos quedamos sin direcciones IPv4, inventamos un truco brillante: dividir las IPs en públicas y privadas.\nIP Pública: Es la cara de tu red hacia el mundo exterior (Internet). Tu proveedor de internet te asigna una sola. Es como la dirección de tu edificio. IP Privada: Funciona solo de puertas para adentro (en el Wi-Fi de tu casa o empresa). Tu router se encarga de asignarlas. Son los números de los departamentos dentro del edificio. Dato curioso: Tu celular y tu laptop probablemente tengan la misma IP Pública en este momento (la del router de tu casa), pero tienen IPs Privadas diferentes para que no choquen entre sí.\nLa crisis de los números: IPv4 vs IPv6 Existen dos “sabores” principales de direcciones IP. La historia de por qué existen ambas es, básicamente, la historia de cómo subestimamos el tamaño de internet.\nIPv4 (La vieja confiable) Es la que ves todos los días.\nFormato: 192.168.1.1 Anatomía: 4 bloques numéricos, separados por puntos, que van del 0 al 255. Capacidad: Nos permite unas ~4.3 mil millones de direcciones posibles. El Gran Problema: En los años 80 parecía una infinidad. Hoy, con cada persona teniendo un celular, laptop y reloj inteligente, ya nos quedamos sin ellas. IPv6 (La salvadora) Nació para solucionar el problema de escasez.\nFormato: 2001:0db8:85a3:0000:0000:8a2e:0370:7334 Anatomía: 8 bloques alfanuméricos (hexadecimales) separados por dos puntos. Capacidad: Absurdamente gigante. Hablamos de ~340 undecillones de direcciones. Podríamos asignarle una IP a cada átomo de la superficie de la Tierra y aún sobrarían. Está diseñada para sostener el Internet de las Cosas (IoT) por siglos. Anatomía de una IP Privada Tomemos este ejemplo clásico que seguro has visto: 192.168.1.25\nNo es solo un número al azar. Se divide en dos partes principales, separadas invisiblemente por algo llamado “máscara de subred”:\nRed (Network): Identifica a qué “vecindario” o red pertenece el dispositivo. En este caso, el vecindario es 192.168.1. Host (Dispositivo): Identifica el equipo específico dentro de ese vecindario. En este caso, eres el dispositivo número 25. ¿Cómo consigues tu número? Existen dos formas principales en las que un dispositivo obtiene su IP:\nEstática (Manual): Se configura a mano y nunca cambia. Es vital para servidores web, impresoras de oficina o cámaras de seguridad, porque necesitas saber siempre dónde encontrarlos. Dinámica (Automática): Se asigna sola gracias a un protocolo llamado DHCP. Cuando llegas a una cafetería y te conectas a su Wi-Fi, el router te “presta” una IP por un rato. Cuando te vas, se la da a alguien más. En resumen… Imagina el sistema postal:\nLa IP Pública es la dirección de tu edificio residencial. La Red (Network) es el bloque de departamentos. El Host es tu número de departamento específico. Dinámico/Estático es la diferencia entre rentar un Airbnb por un día o comprar tu casa propia. En el próximo post, veremos qué pasa una vez que la carta llega a tu casa y cómo los Puertos se aseguran de que se la entreguen a la persona correcta.\n",
+  "wordCount" : "1259",
+  "inLanguage": "es",
+  "image": "http://localhost:1313/blog-cybersecNcloud/images/gotham-cover.png","datePublished": "2026-03-26T17:02:42-06:00",
+  "dateModified": "2026-03-26T17:02:42-06:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/blog-cybersecNcloud/que-es-una-ip/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gotham Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/blog-cybersecNcloud/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/blog-cybersecNcloud/" accesskey="h" title="Gotham Blog (Alt + H)">Gotham Blog</a>
+            <div class="logo-switches">
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="http://localhost:1313/blog-cybersecNcloud/en/" title="English"
+                                aria-label="English">En</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/blog-cybersecNcloud/posts/" title="Posts">
+                    <span>Artículos</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog-cybersecNcloud/about/" title="Sobre Mí">
+                    <span>Sobre Mí</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Qué es una IP y cómo funciona? - P.1
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h1>
+    <div class="post-meta"><span title='2026-03-26 17:02:42 -0600 CST'>26 de marzo de 2026</span>&nbsp;|&nbsp;<span>Traducciones:</span>
+<ul class="i18n_list">
+    <li>
+        <a href="http://localhost:1313/blog-cybersecNcloud/en/whats-an-ip/">En</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><blockquote>
+<p><strong>El Informe Cobblepot:</strong> &gt; <em>Toda comunicación en internet, desde enviar un mensaje por WhatsApp, hasta conectarte a una aplicación para millones de usuarios como Netflix, depende de saber quién habla con quién. Entender las direcciones IP no es solo &ldquo;cosas de IT&rdquo;; es el primer paso para entender como funcionan los servicios digitales, configurar páginas web o entender los cimientos de la ciberseguridad. Sin IPs, no hay negocio digital.</em></p>
+</blockquote>
+<hr>
+<h1 id="entendiendo-internet-desde-la-base-1-de-3-ips">Entendiendo Internet desde la base (1 de 3): IPs<a hidden class="anchor" aria-hidden="true" href="#entendiendo-internet-desde-la-base-1-de-3-ips">#</a></h1>
+<p>El internet puede parecer magia negra, pero en realidad funciona bajo reglas bastante estrictas y lógicas. Piensa en internet como el sistema de correos más grande y rápido del mundo.</p>
+<p>En esta serie vamos a descomponer tres conceptos fundamentales que hacen posible que estés leyendo este blog ahora mismo:</p>
+<ol>
+<li>Qué es una IP (y por qué se nos están acabando)</li>
+<li>Cómo funcionan los puertos y las conexiones</li>
+<li>Cómo se relaciona todo esto con las URLs</li>
+</ol>
+<p>Vayamos por partes, como dijo jack en destripador. Empecemos con las bases.</p>
+<hr>
+<h2 id="parte-1-qué-es-exactamente-una-ip">Parte 1: ¿Qué es exactamente una IP?<a hidden class="anchor" aria-hidden="true" href="#parte-1-qué-es-exactamente-una-ip">#</a></h2>
+<h3 id="el-identificador-único-de-tus-dispositivos">El Identificador Único de tus dispositivos<a hidden class="anchor" aria-hidden="true" href="#el-identificador-único-de-tus-dispositivos">#</a></h3>
+<p>Una dirección IP (<em>Internet Protocol</em>) es el identificador único de un dispositivo dentro de una red.</p>
+<h4 id="que-es-una-red">¿Que es una red?<a hidden class="anchor" aria-hidden="true" href="#que-es-una-red">#</a></h4>
+<p>Piensa en la red como un edificio de departamentos con varias personas viviendo en cada piso. La red puede ser domestica (un edificio donde vive gente), corporativa (un edificio de oficinas), o pública (un centro comercial).</p>
+<p>Cada una de estas redes se rigen bajo ciertas reglas específicas, pero para efectos prácticos, nos centraremos en redes domesticas, el edificio donde viven personas, o en nuestro caso&hellip; El modem que está dando internet en tu casa.</p>
+<p>Sin la red, tu computadora (o celular) sería como una persona que intenta recibir correspondencia en ese edificio, pero el cartero no tiene dirección física a donde entregarla; los datos (cartas en este ejemplo) simplemente no sabrían cómo llegar.</p>
+<p>Piensa en ella como <strong>un número único e irrepetible</strong> dentro de un mismo entorno. Tu celular, tu Smart TV, tu refrigerador inteligente&hellip; todos tienen una. En el ejemplo de los departamentos, no puede existir dos departamentos con el número 1 (en un escenario perfecto), si hubieran 2 departamentos con el mismo número, probablemente compartirían más allá de solo el número, por ejemplo, las facturas; En el caso de la red, compartirían la información si hay 2 iguales.</p>
+<hr>
+<h3 id="cómo-se-ve-una-ip-que-forma-parte-de-una-ip">¿Cómo se ve una IP? ¿Que forma parte de una IP?<a hidden class="anchor" aria-hidden="true" href="#cómo-se-ve-una-ip-que-forma-parte-de-una-ip">#</a></h3>
+<p>Si no tienes conocimiento previo, podrías pensar que una IP es algo místico, o una dirección física como en el ejemplo de los departamentos. En realidad no es más que una forma matemática, de los años 80, en la que se le dió solución a un problema muy grande: ¿Cómo podemos comunicarnos con otras personas por internet?</p>
+<p>Te presento, una IP en el formato IPv4 (no te preocupes, entenderás esto más adelante):</p>
+<p><code>192.168.1.1</code></p>
+<p>Esta IP, está formada por 4 secciones separadas por puntos. A cada sección se le llama <em>octeto</em>. Los números dentro de cada octeto pueden ir del 0 al 255. (Y sí, existe la IP <code>1.1.1.1</code> y en este momento le pertenece a &ldquo;Cloudflare&rdquo;).</p>
+<p>Puede que te hayas preguntado, por qué un &ldquo;octeto&rdquo;, se llama &ldquo;octeto&rdquo;&hellip; Bueno, un octeto es una unidad de información digital formada por 8 bits.</p>
+<p>Un bit (o dígito binario) es la unidad más pequeña en la computación, siendo que cada bit solo puede valer 0 o 1, lo que resulta en que las combinaciones posibles pueden ir de <code>00000000</code> (8 veces 0) a <code>11111111</code> (8 veces 1).</p>
+<p>Puede que también te hayas preguntado, por qué un octeto solo puede ir del 0 al 255, bueno&hellip; si aplicamos un poco de matemáticas podemos obtener cuantas combinaciones exactas tiene un octeto:</p>
+<p>Un bit consta de únicamente 2 posibilidades, 0 y 1. Esta será nuestra constante &ldquo;2&rdquo; llamada &ldquo;posibilidades&rdquo;.</p>
+<p>Cada octeto consta de 8 bits, o sea, 8 combinaciones posibles entre 0 y 1, una por cada bit. Esta será nuestra constante &ldquo;8&rdquo; llamada &ldquo;número de bits&rdquo;.</p>
+<p>La formula es simple, contante ^ número de bits: $$2^8 = 256$$ posibilidades.</p>
+<p>Por eso cada octeto puede ir del 0 al 255, siendo 0 = <code>00000000</code> y siendo 255 = <code>11111111</code>.</p>
+<p>A su vez, estos octetos o grupos de 8 bits, se les conoce comunmente como <em>byte</em>, que es una unidad de medida más grande, formada por 8 bits. O sea que nuestra dirección IP que contiene exactamente <em>4 octetos</em> o <em>32 bits</em>, es a su vez <em>4 bytes</em> de información.</p>
+<h3 id="pública-o-privada-que-pasa-si-existen-2-edificios-diferentes-pero-ambos-tienen-un-departamento-1">¿Pública o Privada? Que pasa si existen 2 edificios diferentes, pero ambos tienen un departamento &ldquo;1&rdquo;?<a hidden class="anchor" aria-hidden="true" href="#pública-o-privada-que-pasa-si-existen-2-edificios-diferentes-pero-ambos-tienen-un-departamento-1">#</a></h3>
+<p>Para lidiar con el hecho de que nos quedamos sin direcciones IPv4, inventamos un truco brillante: dividir las IPs en públicas y privadas.</p>
+<ul>
+<li><strong>IP Pública:</strong> Es la cara de tu red hacia el mundo exterior (Internet). Tu proveedor de internet te asigna <em>una sola</em>. Es como la dirección de tu edificio.</li>
+<li><strong>IP Privada:</strong> Funciona solo de puertas para adentro (en el Wi-Fi de tu casa o empresa). Tu router se encarga de asignarlas. Son los números de los departamentos dentro del edificio.</li>
+</ul>
+<blockquote>
+<p><strong>Dato curioso:</strong> Tu celular y tu laptop probablemente tengan la misma IP Pública en este momento (la del router de tu casa), pero tienen IPs Privadas diferentes para que no choquen entre sí.</p>
+</blockquote>
+<hr>
+<h3 id="la-crisis-de-los-números-ipv4-vs-ipv6">La crisis de los números: IPv4 vs IPv6<a hidden class="anchor" aria-hidden="true" href="#la-crisis-de-los-números-ipv4-vs-ipv6">#</a></h3>
+<p>Existen dos &ldquo;sabores&rdquo; principales de direcciones IP. La historia de por qué existen ambas es, básicamente, la historia de cómo subestimamos el tamaño de internet.</p>
+<h4 id="ipv4-la-vieja-confiable">IPv4 (La vieja confiable)<a hidden class="anchor" aria-hidden="true" href="#ipv4-la-vieja-confiable">#</a></h4>
+<p>Es la que ves todos los días.</p>
+<ul>
+<li><strong>Formato:</strong> <code>192.168.1.1</code></li>
+<li><strong>Anatomía:</strong> 4 bloques numéricos, separados por puntos, que van del 0 al 255.</li>
+<li><strong>Capacidad:</strong> Nos permite unas ~4.3 mil millones de direcciones posibles.</li>
+<li><strong>El Gran Problema:</strong> En los años 80 parecía una infinidad. Hoy, con cada persona teniendo un celular, laptop y reloj inteligente, <strong>ya nos quedamos sin ellas</strong>.</li>
+</ul>
+<h4 id="ipv6-la-salvadora">IPv6 (La salvadora)<a hidden class="anchor" aria-hidden="true" href="#ipv6-la-salvadora">#</a></h4>
+<p>Nació para solucionar el problema de escasez.</p>
+<ul>
+<li><strong>Formato:</strong> <code>2001:0db8:85a3:0000:0000:8a2e:0370:7334</code></li>
+<li><strong>Anatomía:</strong> 8 bloques alfanuméricos (hexadecimales) separados por dos puntos.</li>
+<li><strong>Capacidad:</strong> Absurdamente gigante. Hablamos de ~340 undecillones de direcciones. Podríamos asignarle una IP a cada átomo de la superficie de la Tierra y aún sobrarían. Está diseñada para sostener el Internet de las Cosas (IoT) por siglos.</li>
+</ul>
+<hr>
+<h3 id="anatomía-de-una-ip-privada">Anatomía de una IP Privada<a hidden class="anchor" aria-hidden="true" href="#anatomía-de-una-ip-privada">#</a></h3>
+<p>Tomemos este ejemplo clásico que seguro has visto:
+<code>192.168.1.25</code></p>
+<p>No es solo un número al azar. Se divide en dos partes principales, separadas invisiblemente por algo llamado &ldquo;máscara de subred&rdquo;:</p>
+<ol>
+<li><strong>Red (Network):</strong> Identifica a qué &ldquo;vecindario&rdquo; o red pertenece el dispositivo. En este caso, el vecindario es <code>192.168.1</code>.</li>
+<li><strong>Host (Dispositivo):</strong> Identifica el equipo específico dentro de ese vecindario. En este caso, eres el dispositivo número <code>25</code>.</li>
+</ol>
+<hr>
+<h3 id="cómo-consigues-tu-número">¿Cómo consigues tu número?<a hidden class="anchor" aria-hidden="true" href="#cómo-consigues-tu-número">#</a></h3>
+<p>Existen dos formas principales en las que un dispositivo obtiene su IP:</p>
+<ul>
+<li><strong>Estática (Manual):</strong> Se configura a mano y nunca cambia. Es vital para servidores web, impresoras de oficina o cámaras de seguridad, porque necesitas saber siempre dónde encontrarlos.</li>
+<li><strong>Dinámica (Automática):</strong> Se asigna sola gracias a un protocolo llamado DHCP. Cuando llegas a una cafetería y te conectas a su Wi-Fi, el router te &ldquo;presta&rdquo; una IP por un rato. Cuando te vas, se la da a alguien más.</li>
+</ul>
+<hr>
+<h3 id="en-resumen">En resumen&hellip;<a hidden class="anchor" aria-hidden="true" href="#en-resumen">#</a></h3>
+<p>Imagina el sistema postal:</p>
+<ul>
+<li><strong>La IP Pública</strong> es la dirección de tu edificio residencial.</li>
+<li><strong>La Red (Network)</strong> es el bloque de departamentos.</li>
+<li><strong>El Host</strong> es tu número de departamento específico.</li>
+<li><strong>Dinámico/Estático</strong> es la diferencia entre rentar un Airbnb por un día o comprar tu casa propia.</li>
+</ul>
+<p>En el próximo post, veremos qué pasa una vez que la carta llega a tu casa y cómo los <strong>Puertos</strong> se aseguran de que se la entreguen a la persona correcta.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/blog-cybersecNcloud/tags/redes/">Redes</a></li>
+      <li><a href="http://localhost:1313/blog-cybersecNcloud/tags/b%C3%A1sicos/">Básicos</a></li>
+      <li><a href="http://localhost:1313/blog-cybersecNcloud/tags/infraestructura/">Infraestructura</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/blog-cybersecNcloud/">Gotham Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

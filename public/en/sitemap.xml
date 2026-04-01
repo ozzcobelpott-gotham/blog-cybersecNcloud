@@ -2,20 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog-cybersecNcloud/en/about/</loc>
+    <loc>http://localhost:1313/blog-cybersecNcloud/en/tags/basics/</loc>
+    <lastmod>2026-03-26T17:03:03-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog-cybersecNcloud/en/categories/</loc>
+    <lastmod>2026-03-26T17:03:03-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/blog-cybersecNcloud/about/"
+                href="http://localhost:1313/blog-cybersecNcloud/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/blog-cybersecNcloud/en/about/"
+                href="http://localhost:1313/blog-cybersecNcloud/en/categories/"
                 />
   </url><url>
     <loc>http://localhost:1313/blog-cybersecNcloud/en/</loc>
-    <lastmod>2026-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-26T17:03:03-06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -25,6 +29,51 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/blog-cybersecNcloud/en/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog-cybersecNcloud/en/categories/networks/</loc>
+    <lastmod>2026-03-26T17:03:03-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog-cybersecNcloud/en/tags/networks/</loc>
+    <lastmod>2026-03-26T17:03:03-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog-cybersecNcloud/en/posts/</loc>
+    <lastmod>2026-03-26T17:03:03-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/blog-cybersecNcloud/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog-cybersecNcloud/en/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog-cybersecNcloud/en/tags/</loc>
+    <lastmod>2026-03-26T17:03:03-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/blog-cybersecNcloud/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog-cybersecNcloud/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog-cybersecNcloud/en/posts/whats-an-ip/</loc>
+    <lastmod>2026-03-26T17:03:03-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/blog-cybersecNcloud/posts/que-es-una-ip/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog-cybersecNcloud/en/posts/whats-an-ip/"
                 />
   </url><url>
     <loc>http://localhost:1313/blog-cybersecNcloud/en/posts/analisis-de-malware/</loc>
@@ -53,41 +102,16 @@
                 href="http://localhost:1313/blog-cybersecNcloud/en/posts/buscador-passwords-stealers/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog-cybersecNcloud/en/posts/</loc>
-    <lastmod>2026-03-25T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog-cybersecNcloud/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/blog-cybersecNcloud/posts/"
+                href="http://localhost:1313/blog-cybersecNcloud/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/blog-cybersecNcloud/en/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/blog-cybersecNcloud/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/blog-cybersecNcloud/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blog-cybersecNcloud/en/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/blog-cybersecNcloud/en/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/blog-cybersecNcloud/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blog-cybersecNcloud/en/tags/"
+                href="http://localhost:1313/blog-cybersecNcloud/en/about/"
                 />
   </url>
 </urlset>

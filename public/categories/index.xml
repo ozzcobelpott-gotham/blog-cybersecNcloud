@@ -11,6 +11,14 @@
     </image>
     <generator>Hugo</generator>
     <language>es</language>
+    <lastBuildDate>Thu, 26 Mar 2026 17:02:42 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blog-cybersecNcloud/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redes</title>
+      <link>http://localhost:1313/blog-cybersecNcloud/categories/redes/</link>
+      <pubDate>Thu, 26 Mar 2026 17:02:42 -0600</pubDate>
+      <guid>http://localhost:1313/blog-cybersecNcloud/categories/redes/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
