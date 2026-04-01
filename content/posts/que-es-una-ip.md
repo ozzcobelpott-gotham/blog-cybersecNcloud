@@ -1,7 +1,7 @@
 ---
 title: "Qué es una IP y cómo funciona? - P.1"
 date: 2026-03-26T17:02:42-06:00
-draft: true
+draft: false
 translationKey: "ip-01"
 tags: ["Redes", "Básicos", "Infraestructura"]
 categories: ["Redes"]
